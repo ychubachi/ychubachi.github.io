@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -404,60 +405,98 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* line 4, site.css.scss */
-body {
-  background: white;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* rem (root em) を使用して文字のサイズを設定 */
+/* 行取りに使う行の高さ */
+/* 背景と文字のコントラストを調整 */
+/* 色のテーマ */
+/* line 23, site.css.scss */
+html {
   font-size: 1em; }
 
-/* line 10, site.css.scss */
-.logo img {
-  height: 18.75em;
-  margin-top: 6em; }
+/* line 27, site.css.scss */
+body {
+  color: #404040;
+  background-color: #f7f7f7;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 15, site.css.scss */
+/* line 33, site.css.scss */
+p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-indent: 1rem;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+/* line 43, site.css.scss */
+b {
+  color: #004d00;
+  font-weight: normal; }
+
+/* line 56, site.css.scss */
+h3 {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+/* line 60, site.css.scss */
+h2 {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-left: 0.4rem solid #8080ff;
+  padding-left: 0.6rem; }
+
+/* line 68, site.css.scss */
 h1 {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0; }
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 4rem;
+  font-size: 2rem; }
 
-/* line 23, site.css.scss */
-.doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300; }
-  /* line 29, site.css.scss */
-  .doc a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
-    text-decoration: none;
-    transition: color 0.1s linear; }
-    /* line 36, site.css.scss */
-    .doc a:hover {
-      background: rgba(0, 0, 0, 0.2);
-      color: white;
-      transition: all 0.15s linear; }
+/*
+   a {
+   border: 1px solid white;
+   border-radius: 3px;
+   padding: 0.75em 0.7em;
+   color: white;
+   text-decoration: none;
+   transition: color 0.1s linear;
+   &:hover {
+   background: rgba(0,0,0,0.2);
+   color: white;
+   transition: all 0.15s linear;
+   }
+   }
+   }
 
-/* line 44, site.css.scss */
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
+   .welcome {
+   -webkit-animation-name: welcome;
+   -webkit-animation-duration: .9s;
+   }
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0; }
-  50% {
-    -webkit-transform: scale(0);
-    opacity: 0; }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1; }
-  to {
-    -webkit-transform: scale(1); } }
+   @-webkit-keyframes welcome {
+   from {
+   -webkit-transform: scale(0);
+   opacity: 0;
+   }
+   50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+   }
+   82.5% {
+   -webkit-transform: scale(1.03);
+   -webkit-animation-timing-function: ease-out;
+   opacity: 1;
+   }
+   to {
+   -webkit-transform: scale(1);
+   }
+   }
+*/
