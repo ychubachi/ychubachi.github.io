@@ -458,7 +458,34 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 4rem;
-  font-size: 2rem; }
+  font-size: 2rem;
+  border-bottom: 0.25rem solid #8080ff;
+  margin-bottom: 0.75rem;
+  padding-left: 1rem; }
+
+/* line 77, site.css.scss */
+header {
+  height: 5rem; }
+
+/* line 81, site.css.scss */
+nav {
+  width: 20%;
+  float: left; }
+
+/* line 86, site.css.scss */
+article {
+  width: 40rem;
+  float: left; }
+
+/* line 91, site.css.scss */
+footer {
+  clear: both; }
+
+/* line 95, site.css.scss */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*
    a {
