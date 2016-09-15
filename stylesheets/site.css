@@ -32,13 +32,22 @@ b {
   font-weight: normal; }
 
 /* line 59, site.css.scss */
+h4:before {
+  content: "○"; }
+
+/* line 63, site.css.scss */
 h3 {
   font-size: 1rem;
   line-height: 2rem;
   margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-weight: 700; }
 
-/* line 63, site.css.scss */
+/* line 68, site.css.scss */
+h3:before {
+  content: ""; }
+
+/* line 72, site.css.scss */
 h2 {
   font-size: 1rem;
   line-height: 2rem;
@@ -48,7 +57,7 @@ h2 {
   border-left: 0.4rem solid #8080ff;
   padding-left: 0.6rem; }
 
-/* line 71, site.css.scss */
+/* line 80, site.css.scss */
 h1 {
   font-size: 1rem;
   line-height: 2rem;
@@ -60,66 +69,12 @@ h1 {
   margin-bottom: 0.75rem;
   padding-left: 1rem; }
 
-/* line 80, site.css.scss */
+/* line 89, site.css.scss */
 header {
   height: 5rem; }
 
-/* nav{
-   width: 20%;
-   float: left;
-   }
-
-   article{
-   width: 40rem;
-   float: left;
-   }
-
-   footer{
-   clear: both;
-   } */
-/* line 98, site.css.scss */
+/* line 93, site.css.scss */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-
-/*
-   a {
-   border: 1px solid white;
-   border-radius: 3px;
-   padding: 0.75em 0.7em;
-   color: white;
-   text-decoration: none;
-   transition: color 0.1s linear;
-   &:hover {
-   background: rgba(0,0,0,0.2);
-   color: white;
-   transition: all 0.15s linear;
-   }
-   }
-   }
-
-   .welcome {
-   -webkit-animation-name: welcome;
-   -webkit-animation-duration: .9s;
-   }
-
-   @-webkit-keyframes welcome {
-   from {
-   -webkit-transform: scale(0);
-   opacity: 0;
-   }
-   50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-   }
-   82.5% {
-   -webkit-transform: scale(1.03);
-   -webkit-animation-timing-function: ease-out;
-   opacity: 1;
-   }
-   to {
-   -webkit-transform: scale(1);
-   }
-   }
-*/
