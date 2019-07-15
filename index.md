@@ -8,3 +8,5 @@ layout: home
 このページはGitHubのJekyllが自動的に生成しました。
 残念ながらAsciiDocには対応してません。
 https://help.github.com/en/articles/configuring-jekyll-plugins
+
+Travisからディプロイ
