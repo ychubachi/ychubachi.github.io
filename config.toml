@@ -49,10 +49,10 @@ showReadingTime = true
 showLastmod = true
 taxonomyCloudShuffle = true
 accentColor = "#ffcd00"
-hideMainMenu = true
+hideMainMenu = false
 
 [params.sidebar]
-enable = false
+enable = true
 
 [params.widgets]
 header = ["breadcrumbs"]
@@ -128,12 +128,6 @@ tag = "tags"
 
 [permalinks]
 page = "/:slug/"
-
-[[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
 
 [blackfriday]
 hrefTargetBlank = true
