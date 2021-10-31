@@ -1,5 +1,5 @@
-# baseURL = "https://ghp.chubachi.net"
-baseURL = "http://ychubachi.github.io"
+baseURL = "https://blog.chubachi.net"
+# baseURL = "http://ychubachi.github.io"
 title = "YC's Blog"
 # for smart copyright line, leave this blank and check [params.copyright]
 # copyright = ""
