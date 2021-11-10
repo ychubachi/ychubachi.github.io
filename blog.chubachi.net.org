@@ -1,0 +1,99 @@
+#+HUGO_BASE_DIR: ~/git/ychubachi.github.io
+#+HUGO_SECTION: post
+
+
+* Blog                                                                :@Blog:
+** TODO 五十音表に基づく日本語入力
+   :PROPERTIES:
+   :Created:  <2021-11-04 Thu 00:15>
+   :EXPORT_FILE_NAME: 20211104-001530
+   :EXPORT_DATE: [2021-11-04 Thu 00:15]
+   :END:
+
+*** あたらしい方式
+    つくったよ。
+
+** TODO Emacsでメール送受信
+   :PROPERTIES:
+   :Created:  <2021-10-31 Sun 17:37>
+   :EXPORT_FILE_NAME: 20211031-173748
+   :EXPORT_DATE: [2021-10-31 Sun 17:37]
+   :END:
+
+*** Emacsでメールを読む
+  何年ぶりかに再チャレンジする
+  mu4e+mbsync
+
+** EmacsでものすごくアジャイルにBlogを書く方法
+   :PROPERTIES:
+   :Created:  <2021-10-17 Sun 22:35>
+   :EXPORT_FILE_NAME: 20211017-223536
+   :EXPORT_DATE: [2021-10-17 Sun 22:35]
+   :END:
+
+ブログを書きたいと思ったら、
+
+1. OrgのCaptureでさくっとエントリーを作成する。
+2. エントリーを書く。
+3. そのエントリーでブログのポストにExportする（ox-hugoを利用）。
+   - C-c C-e H H
+
+1.のとき、必要なプロパティも自動で生成されるのがらくちん。
+
+GitHubにPushするのも簡略化したいな。
+
+** エキスポートの仕方
+   :PROPERTIES:
+   :Created:  <2021-10-17 Sun 22:32>
+   :EXPORT_FILE_NAME: 20211017-223202
+   :EXPORT_DATE: [2021-10-17 Sun 22:32]
+   :END:
+
+きちんとプロパティがついているエントリーで C-c C-e H H をうつ。
+capture-templateをうまく設定することができた。
+
+** ox-hugoでブログを書く                                         :Blog:Emacs:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: 2021-10-16
+   :EXPORT_DATE: 2021-10-16
+   :END:
+
+#+begin_description
+これはこの記事の説明です。
+#+end_description
+
+最近、Emacsを見直し、org-modeにもどった。
+Evernote、Notionなど渡り歩いたが、やはりエディタはEmacs。
+Emacsといえばorg-mode。
+最近、Emacsを見直し、org-modeにもどった。
+Evernote、Notionなど渡り歩いたが、やはりエディタはEmacs。
+Emacsといえばorg-mode。
+
+Notionからテキストエディタにコピペができない。
+
+*** org-modeで書くブログ
+最近、Emacsを見直し、org-modeにもどった。
+Evernote、Notionなど渡り歩いたが、やはりエディタはEmacs。
+Emacsといえばorg-mode。
+
+*** Hugoについて
+以前、Jekyllを触ってみた。
+1つのポストで1つファイルを作らなくてはならない。
+ファイル名には日付。
+
+** さよならheml                                                       :Emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2021-10-16-2
+:EXPORT_DATE: 2021-10-16
+:END:
+
+#+begin_description
+これはこの記事の説明です。
+#+end_description
+
+*** さよならheml
+hemlが最先端ではなくなっていた。
+ミニバッファで日本語がかけないのをなんとかしようと思った。
+
+*** のりかえ
+のりかえてみた
